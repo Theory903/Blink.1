@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Blink</string>
+    <string name="welcome_bac">Welcome Back!</string>
+    <string name="please_sign">Please sign in to your account</string>'
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="forget_pass">Forget Password ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_">Dont Have An Account ?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="hello_">HELLO !</string>
+    <string name="dob">DoB</string>
+    <string name="i_accept_th">I accept the</string>
+    <string name="terms_of_us">Terms Of Use</string>
+    <string name="privacy_pol">Privacy Policy</string>
+    <string name="some_id">&amp;</string>
+    <string name="retype_pass">Retype Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="please_signup">Please sign un to your account</string>'
+    <string name="blink">Blink </string>
+    <string name="chat">Chat</string>
+    <string name="activity">Activity</string>
+    <string name="m">1M</string>
+    <string name="todo">TODO</string>
+    <string name="followers">Followers</string>
+    <string name="abhishek_jh">Abhishek Jha</string>
+    <string name="ceo_tezerx">CEO Tezerx</string>
+    <string name="descrpition">descrpition</string>
+    <string name="search">Search</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="analytics">Analytics</string>
+    <string name="contact">Contact</string>
+    <string name="topsearch">TopSearch</string>
+    <string name="trending">Trending</string>
+    <string name="for_you">For You</string>
+    <string name="hashtag">#Hashtag</string>
+    <string name="videos">Videos</string>
+    <string name="profile">profile</string>
+
+</resources>

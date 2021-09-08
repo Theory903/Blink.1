@@ -1,0 +1,251 @@
+<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/BackgroundColor"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:ignore="RtlHardcoded,RelativeOverlap,UsingOnClickInXml" >
+        <!-- Username -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:text="@string/username"
+            android:textAppearance="@style/username" />
+
+        <View
+            android:id="@+id/line_1"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="107dp"
+            android:layout_marginTop="102dp"
+            android:gravity="top"
+            android:text="@string/m"
+            android:textAppearance="@style/m" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="102dp"
+            android:layout_marginRight="110dp"
+            android:gravity="top"
+            android:text="@string/m"
+            android:textAppearance="@style/m"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="-35dp"
+            android:background="@drawable/toolbox" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="128dp"
+            android:gravity="top"
+            android:text="@string/followers"
+            android:textAppearance="@style/followers" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="128dp"
+            android:layout_marginRight="91dp"
+            android:gravity="top"
+            android:text="@string/followers"
+            android:textAppearance="@style/followers"
+            tools:ignore="RelativeOverlap"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="173dp"
+            android:gravity="top"
+            android:text="@string/abhishek_jh"
+            android:textAppearance="@style/profile_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="173dp"
+            android:layout_marginRight="100dp"
+            android:gravity="top"
+            android:text="@string/ceo_tezerx"
+            android:textAppearance="@style/profile_name"
+            tools:ignore="RelativeOverlap" />
+
+        <!-- Descrpition -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="220dp"
+            android:gravity="top"
+            android:text="@string/descrpition"
+            android:textAppearance="@style/descrpition" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/edit_profile_box" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/edit_profile_box" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/contact_box"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="285dp"
+            android:gravity="top"
+            android:text="@string/edit_profile"
+            android:textAppearance="@style/profile_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="171dp"
+            android:layout_marginTop="285dp"
+            android:gravity="top"
+            android:text="@string/analytics"
+            android:textAppearance="@style/profile_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="303dp"
+            android:layout_marginTop="285dp"
+            android:gravity="top"
+            android:text="@string/contact"
+            android:textAppearance="@style/profile_name" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/line" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="397dp"
+            android:background="@drawable/line" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/line" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="812dp"
+            android:layout_marginRight="28dp"
+            android:contentDescription="@string/profile"
+            android:onClick="dashboardButton"
+            android:src="@drawable/ic_person" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="812dp"
+            android:contentDescription="@string/todo"
+            android:onClick="homeButton"
+            android:src="@drawable/ic_home" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="812dp"
+            android:contentDescription="@string/todo"
+            android:onClick="mediaButton"
+            android:src="@drawable/ic_play" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="229dp"
+            android:layout_marginTop="812dp"
+            android:contentDescription="@string/todo"
+            android:onClick="messageButton"
+            android:src="@drawable/ic_message" />
+ </RelativeLayout>
+

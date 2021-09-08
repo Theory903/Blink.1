@@ -1,0 +1,96 @@
+<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/BackgroundColor"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:ignore="RtlHardcoded" >
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/searchbar"
+            android:hint="@string/search"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/line" />
+
+        <!-- Search -->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="121dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="87dp"
+            android:text="@string/topsearch"
+            android:textAppearance="@style/searchText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="87dp"
+            android:gravity="top"
+            android:text="@string/trending"
+            android:textAppearance="@style/searchText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="88dp"
+            android:gravity="top"
+            android:text="@string/for_you"
+            android:textAppearance="@style/searchText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="247dp"
+            android:layout_marginTop="88dp"
+            android:gravity="top"
+            android:text="@string/hashtag"
+            android:textAppearance="@style/searchText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="333dp"
+            android:layout_marginTop="89dp"
+            android:gravity="top"
+            android:text="@string/videos"
+            android:textAppearance="@style/searchText" />
+</RelativeLayout>
+

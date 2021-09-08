@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736018849324",
+    "project_id": "blink-8d2e0",
+    "storage_bucket": "blink-8d2e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736018849324:android:61e3edf9c2b77844b7fb89",
+        "android_client_info": {
+          "package_name": "com.tezerx.blink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736018849324-cmabujvi6lktj97b347mcujvfb069d2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkjNxOy6L5rk7tihn1oLzfhJDy1x_dQOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736018849324-cmabujvi6lktj97b347mcujvfb069d2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
